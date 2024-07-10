@@ -1,1 +1,16 @@
 Faça um programa aonde tenho que advinhar o numero sorteado, se eu acerta o numero aparece uma tela de "parabens", caso não adivinhe aparece uma tela "que pena".
+
+#Importa biblioteca random
+import random
+
+#Criar um input com variavel de número inteiro
+n = int(input('Escreva um número inteiro de 1 á 10'))
+    
+#Criar um Randorizador
+x = random.randint(1,10)
+        
+#Criar um comparador de numero
+if n == x:
+        print('Parabens')
+else:
+    print('lamento')
